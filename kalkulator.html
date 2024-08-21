@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Kalkulator Sederhana JS</title>
+    </head>
+    <body>
+        <h1>Kalkulator</h1>
+        <script>
+            var nilai1 = parseInt(prompt("masukkan nilai 1"));
+            var menu  = prompt("pilihan menu [+, -, *, /]");
+            var nilai2 = parseInt(prompt("masukkan nilai 1"));
+
+            switch (menu) {
+                case "+":
+                    result = nilai1 + nilai2;
+                    break;
+                case "-":
+                    result = nilai1 - nilai2;
+                    break;
+                case "*":
+                    result = nilai1 * nilai2;
+                    break;
+                case "/":
+                    result == nilai1 / nilai2;
+                    break;
+                case "%":
+                    result == nilai1 % nilai2;
+                    break;
+                default :
+                    break;
+            }
+        
+            alert(`hasilnya adalah ${result}`);
+        </script>
+    </body>
+</html>
